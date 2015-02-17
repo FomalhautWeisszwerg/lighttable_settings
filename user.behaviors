@@ -15,6 +15,9 @@
  [:app :lt.objs.style/set-skin "dark"]
  [:app :lt.objs.plugins/load-js "user_compiled.js"]
 
+ ;; Disable welcome page on start up.
+ [:app :-lt.objs.intro/show-intro]
+
  ;; The editor tag is applied to all editors
  [:editor :lt.objs.editor/no-wrap]
  [:editor :lt.objs.editor/line-numbers]
